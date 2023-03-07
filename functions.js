@@ -19,3 +19,17 @@ function makeSentence(pronoun, verb, noun){
     console.log(`Oh boy, do ${pronoun} ${verb} ${noun} or what?`)
 }
 makeSentence('I', 'want', 'chimichangas');
+
+/**
+ * Write a function called getLastElement
+ *  that takes a parameter arr.
+    Invoke the function with an array as the argument.
+    The function should print the last element within the array.
+ */
+function getLastElement(arr){
+    console.log(arr[arr.length -1]);
+}
+
+getLastElement([1, 2, 3, 4, 5, 6]);       // 6
+getLastElement(['a', 'b', 'c']);          // 'c'
+getLastElement([[1, 2, 3], [4, 5, 6]]);   // [4, 5, 6]
